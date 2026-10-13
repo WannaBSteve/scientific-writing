@@ -1,0 +1,10 @@
+interface:
+  display_name: "Scientific Writing"
+  short_description: "Compile scientific arguments into clear prose"
+  icon_small: "./assets/mark.svg"
+  icon_large: "./assets/hero.svg"
+  brand_color: "#245B78"
+  default_prompt: "Use $scientific-writing to revise this technical passage by fixing its argument flow before polishing the prose."
+
+policy:
+  allow_implicit_invocation: true

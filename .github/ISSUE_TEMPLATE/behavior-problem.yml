@@ -1,0 +1,32 @@
+name: Writing behavior problem
+description: Report a concrete case where the skill made the wrong writing decision
+title: "[Behavior] "
+labels: [behavior]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: User task
+      description: Provide a minimal, non-private request.
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Input excerpt
+      description: Remove confidential text and identifying data.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Observed output
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Better decision
+      description: Explain the reasoning change, not only preferred wording.
+    validations:
+      required: true

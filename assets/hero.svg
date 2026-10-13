@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Scientific Writing argument compilation</title>
+  <desc id="desc">Reader question flows through a claim, mechanism, and evidence into clear prose.</desc>
+  <rect width="1200" height="420" rx="32" fill="#F7FAFB"/>
+  <text x="600" y="74" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#203640">Argument compilation</text>
+  <g font-family="Arial, sans-serif" font-size="22" text-anchor="middle">
+    <g fill="#E6F0F4" stroke="#245B78" stroke-width="3">
+      <rect x="55" y="150" width="180" height="82" rx="16"/>
+      <rect x="285" y="150" width="180" height="82" rx="16"/>
+      <rect x="515" y="150" width="180" height="82" rx="16"/>
+      <rect x="745" y="150" width="180" height="82" rx="16"/>
+      <rect x="975" y="150" width="170" height="82" rx="16"/>
+    </g>
+    <g fill="#203640">
+      <text x="145" y="199">Reader question</text>
+      <text x="375" y="199">Design choice</text>
+      <text x="605" y="199">Mechanism</text>
+      <text x="835" y="199">Evidence</text>
+      <text x="1060" y="199">Clear prose</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#D97742" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M235 191h42"/><path d="M267 181l10 10-10 10"/>
+    <path d="M465 191h42"/><path d="M497 181l10 10-10 10"/>
+    <path d="M695 191h42"/><path d="M727 181l10 10-10 10"/>
+    <path d="M925 191h42"/><path d="M957 181l10 10-10 10"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#506A76" text-anchor="middle">
+    <text x="600" y="303">Methods · equations · citations · figures and tables · reviewer responses</text>
+    <text x="600" y="346">Reasoning first. Evidence preserved. Prose follows.</text>
+  </g>
+</svg>

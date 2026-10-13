@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Repository checks
+        run: python3 scripts/check_repo.py
+      - name: Behavior assets
+        run: python3 scripts/check_eval_assets.py
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Clean-control audit
+        run: python3 scripts/audit_prose.py --fail-on warning examples/clean-control.md

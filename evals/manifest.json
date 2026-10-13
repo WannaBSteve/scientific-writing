@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "method-trace",
+      "file": "cases/method-trace.md",
+      "mode": "revise",
+      "criteria": [
+        "states the decision problem before implementation details",
+        "orders observe, select, construct, measure, and publish correctly",
+        "keeps the supplied responsibilities and facts unchanged",
+        "does not introduce a new named mechanism"
+      ]
+    },
+    {
+      "id": "equation-bridge",
+      "file": "cases/equation-bridge.md",
+      "mode": "revise",
+      "criteria": [
+        "states the question before the equation",
+        "explains the source of saving and transition terms",
+        "states the decision controlled by the objective",
+        "does not invent a prediction horizon"
+      ]
+    },
+    {
+      "id": "citation-job",
+      "file": "cases/citation-job.md",
+      "mode": "revise",
+      "criteria": [
+        "states what the cited advisor contributes",
+        "explains the shared problem structure",
+        "states the current method's extension",
+        "does not claim to have checked the source text"
+      ]
+    },
+    {
+      "id": "reviewer-response",
+      "file": "cases/reviewer-response.md",
+      "mode": "respond",
+      "criteria": [
+        "answers the requested cost question directly",
+        "separates resources from workload latency",
+        "removes unraised defensive discussion",
+        "points to a concrete table change"
+      ]
+    },
+    {
+      "id": "evidence-routing",
+      "file": "cases/evidence-routing.md",
+      "mode": "plan",
+      "criteria": [
+        "splits advisor resources from end-to-end performance",
+        "uses one metric per table column",
+        "assigns one primary question to each object",
+        "retains every supplied metric"
+      ]
+    },
+    {
+      "id": "clean-control",
+      "file": "cases/clean-control.md",
+      "mode": "revise",
+      "criteria": [
+        "preserves the paragraph or makes only a necessary local edit",
+        "does not expand the scope",
+        "does not add headings, lists, caveats, or citations"
+      ]
+    }
+  ]
+}

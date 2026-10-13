@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If this skill supports your research writing workflow, please cite the repository."
+title: "Scientific Writing: Argument Compilation for Technical Manuscripts"
+type: software
+authors:
+  - family-names: "Luo"
+    given-names: "Zhensheng"
+version: 0.1.0
+date-released: 2026-10-13
+license: MIT
+repository-code: "https://github.com/WannaBSteve/scientific-writing"
+url: "https://github.com/WannaBSteve/scientific-writing"
+keywords:
+  - scientific writing
+  - methods writing
+  - agent skill
+  - reviewer response
+  - technical communication
