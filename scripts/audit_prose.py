@@ -40,7 +40,8 @@ PURPOSE_VERBS = re.compile(
     r"\b(?:compute|computes|estimate|estimates|define|defines|select|selects|"
     r"choose|chooses|compare|compares|measure|measures|model|models|maximize|"
     r"maximizes|minimize|minimizes|decide|decides|determine|determines|score|"
-    r"scores|objective|constraint)\b",
+    r"scores|publish|publishes|published|allow|allows|satisfy|satisfies|"
+    r"objective|constraint)\b",
     re.IGNORECASE,
 )
 
@@ -67,6 +68,10 @@ def mask_regions(text: str) -> str:
 
     patterns = (
         re.compile(r"```.*?```", re.DOTALL),
+        re.compile(r"\\begin\{(?:table\*?|figure\*?)\}.*?"
+                   r"\\end\{(?:table\*?|figure\*?)\}", re.DOTALL),
+        re.compile(r"\\begin\{(?:tabularx|tabular\*?)\}.*?"
+                   r"\\end\{(?:tabularx|tabular\*?)\}", re.DOTALL),
         re.compile(r"\\begin\{(?:equation\*?|align\*?|gather\*?)\}.*?"
                    r"\\end\{(?:equation\*?|align\*?|gather\*?)\}", re.DOTALL),
         re.compile(r"\$\$.*?\$\$", re.DOTALL),
